@@ -14,15 +14,19 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/mobile-menu.css">
   <link rel="stylesheet" href="css/mainstyles.css">
+
 </head>
 
 <body class="open-mobile-menu">
     <header class="page-header">
         <h2 class="header-name">Iris Heidebrecht</h2>
         <!--<p>short paragraph </p>
-        <button>See More Scroll </button>
-        <h2>Iris Heidebrecht</h2>-->
-        <ul class="omni-mobile-menu">
+        <button>See More Scroll </button>  -->
+        <!--page break onto next page-->
+
+        <!--start of next page-->
+        <h2>Iris Heidebrecht</h2>--> <!--on left-->
+        <ul class="omni-mobile-menu"> <!--on right-->
             <li><a href="#">Home</a></li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#about">Biography</a></li>
@@ -43,8 +47,9 @@
         <div class="content-wrapper">
             <!--Place Site Content Here-->
 
-    <!--new section for Introdution-->
-     <!--myname and menu and intro link to hire me-->
+    <!--new section for Introdution with the nav menu-->
+
+     <!--with link to hire me-->
      <!--<h1> Iris Heidebrecht</h1>-->
     <section class="intro"> <!--introdution of the page -->
         <div class="welcome-page">
@@ -55,10 +60,6 @@
         <!--remove<img class="berries" src="images/blueberries.jpeg" alt="basket of blueberries" />-->
         </div>
     </section>
-    <!--new for portfolio which projects are on second page
-        <img></img>
-        <p></p>
-            <a href> see lastest achivment projects> links to second page-->
 
                 <main> <!--projects completed-->
                     <h2 class="gallery-heading">Gallery of Projects</h2>
@@ -100,7 +101,7 @@
                              
                     </div>
                     </section>
-                    <!--about me on page 2 with more of other interests-->
+                    <!--page 2 is about me with more of other interests-->
                     
 
     <section class="contact-info" id="contact">
@@ -108,7 +109,30 @@
         <p>Please send me an email if <strong>your interested in chatting</strong> or would like to know more on how we could work together on future projects.</p>
         <a href="mailto:thisgale@emailme.cat">Send me an email</a>
         <form>
+            
             <!--add form content here-->
+            <fieldset>
+                <legend>Contact Information</legend>
+            
+                    <div class="input-content">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="user_name" placeholder="Required" required>
+                    </div>
+            
+                    <div class="input-content">
+                        <label for="mail">Email Address</label>
+                        <input type="email" id="mail" name="user_email" placeholder="Required" required>
+                        <br><label for="message">If your like send me a message</label><br>
+                        <textarea class="input-content" id="othertopics" name="user_topics"></textarea>
+                        <button type="submit">Submit</button>
+                    </fieldset>
+                </section>
+            
+            
+            
+                    </div>
+                
+            
         </form>
          
         
@@ -129,6 +153,12 @@
       <div class="footer-heading">
     <h5>© 2021, <em>Something to Brag About Web Design.</em></h5>
     <nav class="backtotop" id="back"><a href="#">Back to Top</a></nav>
+    <!--<ul class="omni-mobile-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">Biography</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>  -->
   </div> 
 </footer>
 
